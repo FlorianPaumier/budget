@@ -1,0 +1,9 @@
+node_modules
+.output
+dist
+.tanstack
+src/routeTree.gen.ts
+src/lib/api.generated.ts
+package-lock.json
+playwright-report
+test-results

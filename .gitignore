@@ -1,0 +1,26 @@
+
+
+# Local files excluded from publication
+.DS_Store
+.idea/
+.remember/
+.env
+.env.*
+!.env.example
+!.env.*.example
+node_modules/
+vendor/
+.venv/
+__pycache__/
+*.pyc
+coverage/
+dist/
+build/
+.gradle/
+local.properties
+*.jks
+*.keystore
+*.db
+*.sqlite
+*.sqlite3
+artifacts/

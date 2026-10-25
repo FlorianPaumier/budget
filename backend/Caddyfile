@@ -1,0 +1,8 @@
+{
+    default_sni 192.168.40.71
+}
+
+budget.home.arpa, 192.168.40.71 {
+  tls internal
+  reverse_proxy budget:3333
+}

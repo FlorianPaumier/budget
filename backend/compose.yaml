@@ -1,0 +1,45 @@
+services:
+  budget:
+    image: budget-backend:local
+    build: .
+    restart: unless-stopped
+    env_file: .env.production
+    environment:
+      APP_URL: https://192.168.40.71
+      HOST: 0.0.0.0
+      PORT: 3333
+      DB_PATH: /data/budget.sqlite3
+      APK_DIRECTORY: /apk
+      INSTALL_BASE_URL: ${INSTALL_BASE_URL:-https://192.168.40.71}
+    volumes:
+      - budget_data:/data
+      - budget_apk:/apk
+      - budget_backups:/backups
+  backups:
+    image: budget-backend:local
+    restart: unless-stopped
+    env_file: .env.production
+    command: ["node", "scripts/maintenance.mjs", "schedule-backups", "/data/budget.sqlite3", "/backups"]
+    volumes:
+      - budget_data:/data
+      - budget_backups:/backups
+    depends_on:
+      - budget
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - budget
+
+volumes:
+  budget_data:
+  budget_apk:
+  budget_backups:
+  caddy_data:
+  caddy_config:

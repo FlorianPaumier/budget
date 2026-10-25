@@ -1,0 +1,14 @@
+{
+    default_sni 192.168.40.71
+}
+
+budget.home.arpa, 192.168.40.71 {
+  tls internal
+  @backend path /api/* /install /install/* /docs /openapi/v1.json
+  handle @backend {
+    reverse_proxy budget:3333
+  }
+  handle {
+    reverse_proxy frontend:3000
+  }
+}

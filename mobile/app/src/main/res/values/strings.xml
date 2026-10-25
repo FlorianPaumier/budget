@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Budget du foyer</string>
+    <string name="ui_0_00" formatted="false">0,00</string>
+    <string name="ui_a_synchroniser" formatted="false">À synchroniser</string>
+    <string name="ui_a_synchroniser_les_echeances_seront_actualisees_apres_valida" formatted="false">À synchroniser. Les échéances seront actualisées après validation par le serveur.</string>
+    <string name="ui_a_verifier_cette_operation_a_ete_confirmee_automatiquement" formatted="false">À vérifier : cette opération a été confirmée automatiquement.</string>
+    <string name="ui_activee" formatted="false">Activée</string>
+    <string name="ui_adresse_du_serveur" formatted="false">Adresse du serveur</string>
+    <string name="ui_ajouter" formatted="false">Ajouter</string>
+    <string name="ui_ajouter_une_categorie" formatted="false">Ajouter une catégorie</string>
+    <string name="ui_ajouter_une_operation_reguliere" formatted="false">Ajouter une opération régulière</string>
+    <string name="ui_ajouter_une_transaction" formatted="false">Ajouter une transaction</string>
+    <string name="ui_annuler" formatted="false">Annuler</string>
+    <string name="ui_annuler_les_codes_non_utilises" formatted="false">Annuler les codes non utilisés</string>
+    <string name="ui_apparence" formatted="false">Apparence</string>
+    <string name="ui_aucune_echeance_disponible_pour_ce_mois" formatted="false">Aucune échéance disponible pour ce mois</string>
+    <string name="ui_aucune_modification_a_verifier" formatted="false">Aucune modification à vérifier</string>
+    <string name="ui_autoriser_les_notifications" formatted="false">Autoriser les notifications</string>
+    <string name="ui_autoriser_les_rappels_precis" formatted="false">Autoriser les rappels précis</string>
+    <string name="ui_autorisez_les_alarmes_pour_recevoir_les_rappels_a_lheure_cho" formatted="false">Autorisez les alarmes pour recevoir les rappels à l’heure choisie. Les réglages de batterie du téléphone peuvent les retarder.</string>
+    <string name="ui_budget_du_mois" formatted="false">Budget du mois</string>
+    <string name="ui_budget_prevu_ca" formatted="false">Budget prévu ($ CA)</string>
+    <string name="ui_calcule_a_partir_des_transactions_synchronisees_le_mois_en_c" formatted="false">Calculé à partir des transactions synchronisées. Le mois en cours couvre les opérations à ce jour.</string>
+    <string name="ui_categorie" formatted="false">Catégorie</string>
+    <string name="ui_categorie_facultatif" formatted="false">Catégorie (facultatif)</string>
+    <string name="ui_categorie_modifiee_en_attente_de_synchronisation" formatted="false">Catégorie modifiée · en attente de synchronisation</string>
+    <string name="ui_categories" formatted="false">Catégories</string>
+    <string name="ui_ce_que_vous_avez_prevu_ce_quil_vous_reste" formatted="false">Ce que vous avez prévu. Ce qu’il vous reste.</string>
+    <string name="ui_ce_telephone_devra_se_reconnecter_ses_modifications_locales_" formatted="false">Ce téléphone devra se reconnecter. Ses modifications locales en attente sont conservées.</string>
+    <string name="ui_cette_transaction_a_une_modification_en_attente_de_synchroni" formatted="false">Cette transaction a une modification en attente de synchronisation.</string>
+    <string name="ui_choisir_cette_date" formatted="false">Choisir cette date</string>
+    <string name="ui_code_de_connexion" formatted="false">Code de connexion</string>
+    <string name="ui_comprendre_ces_montants" formatted="false">Comprendre ces montants</string>
+    <string name="ui_comprendre_vos_depenses" formatted="false">Comprendre vos dépenses</string>
+    <string name="ui_compris" formatted="false">Compris</string>
+    <string name="ui_compte" formatted="false">Compte</string>
+    <string name="ui_confirmer_la_suppression" formatted="false">Confirmer la suppression</string>
+    <string name="ui_connecter_ce_telephone" formatted="false">Connecter ce téléphone</string>
+    <string name="ui_connecter_un_autre_telephone" formatted="false">Connecter un autre téléphone</string>
+    <string name="ui_connectez_vous_au_wi_fi_du_foyer_pour_rechercher_une_mise_a_" formatted="false">Connectez-vous au Wi-Fi du foyer pour rechercher une mise à jour.</string>
+    <string name="ui_conserver_la_transaction" formatted="false">Conserver la transaction</string>
+    <string name="ui_continuer_la_saisie" formatted="false">Continuer la saisie</string>
+    <string name="ui_date" formatted="false">Date · </string>
+    <string name="ui_date_de_debut_aaaa_mm_jj" formatted="false">Date de début (AAAA-MM-JJ)</string>
+    <string name="ui_date_de_fin_facultatif" formatted="false">Date de fin (facultatif)</string>
+    <string name="ui_date_reelle_aaaa_mm_jj" formatted="false">Date réelle (AAAA-MM-JJ)</string>
+    <string name="ui_deconnecter_ce_telephone" formatted="false">Déconnecter ce téléphone</string>
+    <string name="ui_desactivee" formatted="false">Désactivée</string>
+    <string name="ui_description_categorie_ou_date" formatted="false">Description, catégorie ou date</string>
+    <string name="ui_description_facultatif" formatted="false">Description (facultatif)</string>
+    <string name="ui_deuxieme_jour_du_mois_131" formatted="false">Deuxième jour du mois (1–31)</string>
+    <string name="ui_disponible" formatted="false">Disponible</string>
+    <string name="ui_disponible_le_solde_apres_les_operations_confirmees_il_peut_" formatted="false">Disponible : le solde après les opérations confirmées. Il peut encore servir à payer des factures à venir.</string>
+    <string name="ui_echeances" formatted="false">Échéances</string>
+    <string name="ui_elle_sera_retiree_du_budget_apres_synchronisation" formatted="false">Elle sera retirée du budget après synchronisation.</string>
+    <string name="ui_enregistre_sur_ce_telephone_puis_synchronise_avec_le_foyer" formatted="false">Enregistré sur ce téléphone, puis synchronisé avec le foyer.</string>
+    <string name="ui_enregistrer" formatted="false">Enregistrer</string>
+    <string name="ui_enregistrer_la_confirmation" formatted="false">Enregistrer la confirmation</string>
+    <string name="ui_enregistrer_le_budget" formatted="false">Enregistrer le budget</string>
+    <string name="ui_enregistrer_le_nom" formatted="false">Enregistrer le nom</string>
+    <string name="ui_enregistrer_lheure" formatted="false">Enregistrer l’heure</string>
+    <string name="ui_enregistrer_lobjectif" formatted="false">Enregistrer l’objectif</string>
+    <string name="ui_epargne_le_solde_du_compte_depargne_un_transfert_entre_vos_c" formatted="false">Épargne : le solde du compte d’épargne. Un transfert entre vos comptes n’est pas un revenu.</string>
+    <string name="ui_ex_epicerie_de_la_semaine" formatted="false">Ex. : épicerie de la semaine</string>
+    <string name="ui_fermer_lhistorique" formatted="false">Fermer l’historique</string>
+    <string name="ui_foyer" formatted="false">Foyer</string>
+    <string name="ui_frequence" formatted="false">Fréquence</string>
+    <string name="ui_garder_la_version_du_foyer" formatted="false">Garder la version du foyer</string>
+    <string name="ui_garder_ma_modification" formatted="false">Garder ma modification</string>
+    <string name="ui_heure_des_rappels_hh_mm" formatted="false">Heure des rappels (HH:mm)</string>
+    <string name="ui_historique_de_la_transaction" formatted="false">Historique de la transaction</string>
+    <string name="ui_historique_indisponible_sur_ce_telephone_synchronisez_avec_l" formatted="false">Historique indisponible sur ce téléphone. Synchronisez avec le serveur.</string>
+    <string name="ui_installer_la_mise_a_jour" formatted="false">Installer la mise à jour</string>
+    <string name="ui_jour_precedent" formatted="false">Jour précédent</string>
+    <string name="ui_jour_suivant" formatted="false">Jour suivant</string>
+    <string name="ui_la_gestion_des_telephones_necessite_une_connexion_au_serveur" formatted="false">La gestion des téléphones nécessite une connexion au serveur.</string>
+    <string name="ui_les_echeances_futures_seront_retirees_apres_synchronisation_" formatted="false">Les échéances futures seront retirées après synchronisation. L’historique confirmé est conservé.</string>
+    <string name="ui_les_soldes_incluent_les_montants_de_depart_et_les_transferts" formatted="false">Les soldes incluent les montants de départ et les transferts. Le reste prévu tient compte des factures, des budgets et de votre objectif d’épargne.</string>
+    <string name="ui_les_transactions_precedentes_restent_dans_lhistorique" formatted="false">Les transactions précédentes restent dans l’historique.</string>
+    <string name="ui_mises_a_jour" formatted="false">Mises à jour</string>
+    <string name="ui_modifications_a_verifier" formatted="false">Modifications à vérifier</string>
+    <string name="ui_modifier" formatted="false">Modifier</string>
+    <string name="ui_modifier_le_budget" formatted="false">Modifier le budget</string>
+    <string name="ui_modifier_lobjectif_depargne" formatted="false">Modifier l’objectif d’épargne</string>
+    <string name="ui_montant_ca" formatted="false">Montant ($ CA)</string>
+    <string name="ui_montant_reel_ca" formatted="false">Montant réel ($ CA)</string>
+    <string name="ui_nom" formatted="false">Nom</string>
+    <string name="ui_nom_de_ce_telephone" formatted="false">Nom de ce téléphone</string>
+    <string name="ui_nom_de_la_categorie" formatted="false">Nom de la catégorie</string>
+    <string name="ui_nombre_de_periodes_entre_deux_echeances_11000" formatted="false">Nombre de périodes entre deux échéances (1–1000)</string>
+    <string name="ui_objectif_depargne" formatted="false">Objectif d’épargne</string>
+    <string name="ui_objectif_depargne_ca" formatted="false">Objectif d’épargne ($ CA)</string>
+    <string name="ui_operations_regulieres" formatted="false">Opérations régulières</string>
+    <string name="ui_parametres" formatted="false">Paramètres</string>
+    <string name="ui_pour_corriger_un_solde_ou_une_categorie" formatted="false">Pour corriger un solde ou une catégorie.</string>
+    <string name="ui_pour_un_mois_plus_court_la_derniere_journee_est_utilisee_le_" formatted="false">Pour un mois plus court, la dernière journée est utilisée. Le jour habituel revient ensuite.</string>
+    <string name="ui_premier_jour_du_mois_131" formatted="false">Premier jour du mois (1–31)</string>
+    <string name="ui_prochaines_echeances" formatted="false">Prochaines échéances</string>
+    <string name="ui_quitter" formatted="false">Quitter</string>
+    <string name="ui_quitter_sans_enregistrer" formatted="false">Quitter sans enregistrer ?</string>
+    <string name="ui_rappels_du_foyer" formatted="false">Rappels du foyer</string>
+    <string name="ui_recevez_un_rappel_la_veille_et_le_jour_des_revenus_factures_" formatted="false">Recevez un rappel la veille et le jour des revenus, factures et abonnements prévus, selon l’heure du foyer.</string>
+    <string name="ui_rechercher_une_transaction" formatted="false">Rechercher une transaction</string>
+    <string name="ui_reinitialiser_les_filtres" formatted="false">Réinitialiser les filtres</string>
+    <string name="ui_reste_prevu_revenus_attendus_moins_les_factures_les_budgets_" formatted="false">Reste prévu : revenus attendus moins les factures, les budgets par catégorie et l’objectif d’épargne.</string>
+    <string name="ui_retirer_lobjectif" formatted="false">Retirer l’objectif</string>
+    <string name="ui_retrouvez_le_budget_partage_de_votre_foyer" formatted="false">Retrouvez le budget partagé de votre foyer.</string>
+    <string name="ui_retrouvez_vos_depenses_et_vos_revenus" formatted="false">Retrouvez vos dépenses et vos revenus.</string>
+    <string name="ui_revenir_a_ce_mois" formatted="false">Revenir à ce mois</string>
+    <string name="ui_revenir_au_budget" formatted="false">Revenir au budget</string>
+    <string name="ui_saisissez_un_montant_positif_ou_zero" formatted="false">Saisissez un montant positif ou zéro.</string>
+    <string name="ui_saisissez_un_nom_de_telephone_et_un_code_de_connexion" formatted="false">Saisissez un nom de téléphone et un code de connexion.</string>
+    <string name="ui_saisissez_une_adresse_de_serveur_https" formatted="false">Saisissez une adresse de serveur HTTPS.</string>
+    <string name="ui_sans_categorie" formatted="false">Sans catégorie</string>
+    <string name="ui_scanner_le_qr_de_connexion" formatted="false">Scanner le QR de connexion</string>
+    <string name="ui_scannez_ce_qr_sur_lecran_de_connexion_de_lautre_telephone" formatted="false">Scannez ce QR sur l’écran de connexion de l’autre téléphone.</string>
+    <string name="ui_solde_du_compte_disponible_ca" formatted="false">Après les opérations synchronisées · $ CA</string>
+    <string name="ui_supprimer" formatted="false">Supprimer</string>
+    <string name="ui_supprimer_cette_transaction" formatted="false">Supprimer cette transaction ?</string>
+    <string name="ui_supprimer_la_transaction" formatted="false">Supprimer la transaction</string>
+    <string name="ui_synchroniser" formatted="false">Synchroniser</string>
+    <string name="ui_synchronisez_la_modification_avant_de_confirmer_cette_echean" formatted="false">Synchronisez la modification avant de confirmer cette échéance.</string>
+    <string name="ui_telephones_connectes" formatted="false">Téléphones connectés</string>
+    <string name="ui_tester_la_connexion" formatted="false">Tester la connexion</string>
+    <string name="ui_total_des_comptes" formatted="false">Total des comptes</string>
+    <string name="ui_toutes_les_categories" formatted="false">Toutes les catégories</string>
+    <string name="ui_transactions" formatted="false">Transactions</string>
+    <string name="ui_un_montant_une_categorie_cest_tout" formatted="false">Un montant, une catégorie. C’est tout.</string>
+    <string name="ui_utiliser_la_suggestion" formatted="false">Utiliser la suggestion</string>
+    <string name="ui_version_du_foyer" formatted="false">Version du foyer</string>
+    <string name="ui_voir_la_transaction" formatted="false">Voir la transaction</string>
+    <string name="ui_voir_lhistorique" formatted="false">Voir l’historique</string>
+    <string name="ui_vos_operations_regulieres" formatted="false">Vos opérations régulières</string>
+    <string name="ui_vos_preferences_vos_appareils_et_votre_foyer" formatted="false">Vos préférences, vos appareils et votre foyer</string>
+    <string name="ui_votre_application_est_a_jour" formatted="false">Votre application est à jour.</string>
+    <string name="ui_votre_argent_simplement" formatted="false">Votre argent, simplement</string>
+    <string name="ui_votre_foyer" formatted="false">Votre foyer</string>
+    <string name="ui_votre_modification" formatted="false">Votre modification</string>
+    <string name="ui_votre_saisie_sera_perdue" formatted="false">Votre saisie sera perdue.</string>
+    <string name="ui_vue_densemble" formatted="false">Vue d’ensemble</string>
+</resources>

@@ -1,0 +1,14 @@
+**/node_modules
+**/.env
+**/.env.*
+**/build
+**/coverage
+**/.output
+**/.tanstack
+**/test-results
+**/playwright-report
+mobile
+artifacts
+.remember
+.idea
+backend/tmp

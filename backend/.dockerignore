@@ -1,0 +1,8 @@
+node_modules
+coverage
+build
+tmp
+.env*
+*.sqlite3
+*.apk
+*.pem

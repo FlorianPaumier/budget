@@ -1,0 +1,19 @@
+services:
+  frontend:
+    image: budget-frontend:local
+    build:
+      context: ..
+      dockerfile: frontend/Dockerfile
+    restart: unless-stopped
+    env_file: .env.frontend.production
+    environment:
+      BUDGET_API_URL: http://budget:3333
+      HOST: 0.0.0.0
+      PORT: 3000
+    depends_on:
+      - budget
+  caddy:
+    volumes:
+      - ./Caddyfile.frontend:/etc/caddy/Caddyfile:ro
+    depends_on:
+      - frontend
